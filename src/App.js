@@ -19,7 +19,7 @@ export default function App() {
         <ContactShadows renderOrder={2} frames={1} resolution={1024} scale={120} blur={2} opacity={0.6} far={100} />
       </Suspense>
       <OrbitControls enableZoom={true} enablePan={true} minPolarAngle={0} maxPolarAngle={Math.PI / 2.25} makeDefault />
-      <PerspectiveCamera makeDefault position={[-150, 500, 600]} fov={60} />
+      <PerspectiveCamera makeDefault position={[-50, 30, 120]} fov={60} />
     </Canvas>
   )
 }
