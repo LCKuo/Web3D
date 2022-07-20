@@ -9,9 +9,6 @@ import { BlobGeometry } from '../Models/BlobGeometry'
 export default function Scene() {
     return (
         <Suspense fallback={null}>
-            <Grass scale={50}>
-                <BlobGeometry />
-            </Grass>
             <Environment files="/old_depot_2k.hdr" background />
             <spotLight angle={40} position={[-80, 200, -100]} intensity={1} />
             <Car position={[-8, 0, -2]} scale={20} rotation-y={-Math.PI / 4} />
